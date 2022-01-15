@@ -23,7 +23,7 @@ export const Image = styled.div`
 	overflow: hidden;
 
 	img {
-		width: 100%auto;
+		width: 100%;
 		height: 80vh;
 		object-fit: cover;
 	}
