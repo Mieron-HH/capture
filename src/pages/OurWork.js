@@ -17,7 +17,7 @@ import {
 	swoopAdoop,
 } from "../animation";
 import { useScroll } from "../component/useScroll";
-
+import ScrollTop from "../component/ScrollTop";
 const OurWork = () => {
 	const [element, controls] = useScroll();
 	const [element2, controls2] = useScroll();
@@ -66,6 +66,7 @@ const OurWork = () => {
 					<img src={goodtimes} alt="goodtimes" />
 				</Link>
 			</Movie>
+			<ScrollTop />
 		</Work>
 	);
 };
