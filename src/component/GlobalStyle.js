@@ -14,6 +14,12 @@ body {
         overflow-x: hidden;
 }
 
+html {
+        @media (max-width: 1700px) {
+                font-size: 75%;
+        }
+}
+
 button {
         font-weight: bold;
         font-family: "Inter", sans-serif;
