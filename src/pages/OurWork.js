@@ -14,7 +14,6 @@ import {
 	lineAnim,
 	slider,
 	sliderContainer,
-	swoopAdoop,
 } from "../animation";
 import { useScroll } from "../component/useScroll";
 import ScrollTop from "../component/ScrollTop";
